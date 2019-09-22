@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rajeev.bloodly">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bloodly2"
+        android:label="Bloodly"
+        android:roundIcon="@drawable/bloodly"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditProfile"></activity>
+        <activity android:name=".Donate" />
+        <activity android:name=".Register" />
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ViewRequests" />
+        <activity android:name=".ViewNotificaionPanel" />
+        <activity android:name=".MainActivity1" />
+    </application>
+
+</manifest>
